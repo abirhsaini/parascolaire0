@@ -1,18 +1,26 @@
 import React from 'react';
 import logo from "../images/logo2.png"
 import "../style/login.css"
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import axios from 'axios';
+import { useHistory } from "react-router-dom";
+
 
 
 const Login = () => {
+    const history = useHistory();
+
+    const handleClick = () => {
+        history.push("/Allclubs");
+    }
     const register =()=>{
         console.log("kk")
         axios.post('http://localhost:3001/login',{
         email:email,
         password:password,
         member:member
-    }).then(()=>{console.log("hh")})
+    })
     }
     const [email, setemail] = useState("");
     const [password, setpassword] = useState("");
@@ -20,7 +28,7 @@ const Login = () => {
 
 
     return (
-        <div><img src={logo} alt="logo" />
+        <div><img className='imgg' src={logo} alt="logo" />
             <div className='ligne'>
                 <hr id='hr' className='hrone' width="300px" />
                 <h1 >LOGIN</h1>
@@ -35,7 +43,7 @@ const Login = () => {
                 <option >team of club</option>
             </select>
             <p>forgot password?</p>
-            <button  className='input' onClick={register}>LOGIN</button>
+           <a href="/Allclubs"><button  className='input' onClick={register}>LOGIN</button></a>
         </div>
     );
 };

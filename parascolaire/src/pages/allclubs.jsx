@@ -3,6 +3,8 @@ import Navbawr from '../coponenets/Navbar';
 import "../style/Allclucb.css"
 import Cart from "../coponenets/cart"
 import DinnerList from "../data";
+import logo from "../images/logo2.png"
+import logo3 from "../images/hh.jpeg"
 
 const Allclubs = () => {
     const cards = DinnerList.map((item) => {
@@ -23,7 +25,7 @@ const Allclubs = () => {
             <body className='allclub'>
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" className='color' href="#">HOME</a>
+                        <a  class="nav-link active" className='color' href="#">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" className='color' href="#" id='active'>ALL CLUBS</a>
@@ -40,6 +42,10 @@ const Allclubs = () => {
                      
                     </div>
                     {cards}
+                </div>
+                <div className="footer">
+                    <img className='last' src={logo} alt="" />
+                    <img className='last' src={logo3} alt="" />
                 </div>
             </body>
         </div>

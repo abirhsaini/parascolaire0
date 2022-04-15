@@ -9,8 +9,8 @@ function App() {
       <BrowserRouter>
     <Switch>
     
-    <Route path="/login" exact component={Login} />
-    <Route path="/" exact component={Allclubs} />
+    <Route path="/Allclubs" exact component={Allclubs} />
+    <Route path="/" exact component={Login} />
     
 
     </Switch>
