@@ -1,5 +1,6 @@
 nav {
     background-color: rgba(86, 195, 217, 1);
+    height: 50px;
 }
 
 * {}
@@ -7,10 +8,48 @@ nav {
 img.nav {
     width: 50px;
     height: 50px;
-    margin-top: -10px;
 }
 
 .hi {}
+
+span {
+    margin-left: 50px;
+    font-size: 70px;
+}
+
+.blue1 {
+    color: rgba(86, 195, 217, 1);
+}
+
+.hr1 {
+    width: 100px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.hr2 {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.inline {
+    display: flex;
+}
+
+.tout {
+    margin-left: -40px;
+}
+
+.all {
+    background-color: rgb(252, 252, 252);
+    height: 100%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+}
 
 button {
     width: 300px;
@@ -47,4 +86,24 @@ a {
 #active {
     color: azure;
     text-decoration: underline;
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+}
+
+.card1 {
+    display: inline-flex;
+    padding: 80px;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

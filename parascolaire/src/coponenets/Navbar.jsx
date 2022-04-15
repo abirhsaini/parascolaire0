@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo2 from "../images/Capture.PNG"
 import logo from "../images/sidebar-icon-16.jpg"
 import {
     Navbar,
@@ -18,7 +19,7 @@ const Navbawr = () => {
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end">
       <Navbar.Text>
-         <button class="btn btn-light"> sign in</button>
+         <img className='img1' src={logo2} alt="" />
       </Navbar.Text>
     </Navbar.Collapse>
   </Container>
