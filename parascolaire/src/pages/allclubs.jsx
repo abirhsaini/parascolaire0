@@ -25,13 +25,13 @@ const Allclubs = () => {
             <body className='allclub'>
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a  class="nav-link active" className='color' href="#">HOME</a>
+                        <a  class="nav-link active" className='color' href="/home">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" className='color' href="#" id='active'>ALL CLUBS</a>
+                        <a class="nav-link active" className='color' href="/allclubs" id='active'>ALL CLUBS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" className='color' href="#">SCHEDULE</a>
+                        <a class="nav-link" className='color' href="schedule">SCHEDULE</a>
                     </li>
                 </ul>
                 <div className='all'>

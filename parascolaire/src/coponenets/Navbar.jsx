@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo2 from "../images/Capture.PNG"
 import logo from "../images/sidebar-icon-16.jpg"
 import logo1 from "../images/noti.png"
+
 import {
     Navbar,
     Container,
@@ -11,10 +12,11 @@ import {
   } from 'react-bootstrap';
   
 const Navbawr = () => {
-    
     return (
+
        <div>
-    <Navbar className='hi'>
+    
+    <Navbar className='hi'  >
   <Container>
     <Navbar.Brand href="#home"><img  className='nav' src={logo} alt="" />
     </Navbar.Brand>

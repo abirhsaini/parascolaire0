@@ -1,0 +1,72 @@
+.djf {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    width: 100vw;
+}
+
+#description {
+    background-color: rgb(253, 253, 254);
+}
+
+.navb {
+    background-color: rgba(86, 195, 217, 1);
+}
+
+.desc {
+    width: 80%;
+    border: solid;
+    box-shadow: inset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+h4 {}
+
+#lo {
+    display: inline;
+    font-size: 10px;
+}
+
+.ligne1 {
+    padding-left: 50px;
+    height: 10px;
+}
+
+.ligne2 {
+    padding-left: 50px;
+    display: block;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 40px;
+    padding: 50px;
+    padding-left: 80px;
+    border-top: 0ch;
+}
+
+.gre {
+    color: forestgreen;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.black {
+    color: black;
+}
+
+#blackk {
+    margin-top: 50px;
+}
+
+.card3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}

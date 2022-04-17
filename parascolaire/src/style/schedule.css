@@ -1,0 +1,56 @@
+.ima {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.toutall {
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.eng {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.para {
+    color: black;
+    padding-left: 20px;
+}
+
+.colorred {
+    color: brown;
+    background-color: rgb(180, 145, 145);
+    height: 30px;
+    width: 50px;
+}
+
+.colorblue {
+    color: rgb(41, 14, 136);
+    background-color: rgb(137, 143, 160);
+    height: 30px;
+    width: 50px;
+}
+
+.colororange {
+    color: rgb(223, 162, 7);
+    background-color: rgb(205, 202, 171);
+    height: 30px;
+    width: 50px;
+}
+
+.colorgreen {
+    color: rgb(25, 158, 25);
+    background-color: rgb(151, 178, 157);
+    height: 30px;
+    width: 50px;
+}
+
+#home {
+    width: 100vh;
+}

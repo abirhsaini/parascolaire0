@@ -9,11 +9,7 @@ import { useHistory } from "react-router-dom";
 
 
 const Login = () => {
-    const history = useHistory();
-
-    const handleClick = () => {
-        history.push("/Allclubs");
-    }
+   
     const register =()=>{
         console.log("kk")
         axios.post('http://localhost:3001/login',{
