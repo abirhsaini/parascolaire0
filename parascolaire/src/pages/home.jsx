@@ -7,6 +7,10 @@ import image3 from "../images/plus.png"
 import image4 from "../images/DJF.jpeg"
 import image5 from "../images/CAS.jpeg"
 import image6 from "../images/ARTY.jpeg"
+import img1 from "../images/casa.jpeg"
+import img2 from "../images/djfa.jpeg"
+import img3 from "../images/secu.jpeg"
+import img4 from "../images/,.jpeg"
 
 
 
@@ -43,7 +47,7 @@ const home = () => {
                                 <div class="col-sm-5" >
                                     <div class="card card-block">
 
-                                        <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset" />
+                                        <img src={img2}  className="li"  alt="Photo of sunset" />
                                         <h5 class="card-title mt-3 mb-3">LMPS premier groupe panafricain spécialisé dans les métiers de la CyberSécurité. LMPS Group offre une gamme complète de provices allant de l’audit et le conseil,</h5>
                                         <span className='gre' >Learn more</span>
                                     </div>
@@ -51,7 +55,7 @@ const home = () => {
                                 <div class="col-sm-5">
                                     <div class="card card-block">
 
-                                        <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset" />
+                                        <img src={img1}  className="li" alt="Photo of sunset" />
                                         <h5 class="card-title  mt-3 mb-3">LMPS premier groupe panafricain spécialisé dans les métiers de la CyberSécurité. LMPS Group offre une gamme complète de provices allant de l’audit et le conseil,</h5>
                                         <span className='gre' >Learn more</span>
 
@@ -98,7 +102,7 @@ const home = () => {
                         <a href="/description">
                             <div class="" >
 
-                                <img class="card-img-top" className='card2' src={image6} alt="Card image cap" />
+                                <img class="card-img-top"  className='card2' src={image6} alt="Card image cap" />
                                 <div class="card-body" className='cardindo'>
                                     <h5 class="card-title">ARTY</h5>
 
@@ -123,7 +127,7 @@ const home = () => {
                                 <div class="col-sm-6" >
                                     <div class="card card-block">
 
-                                        <img src="https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg" alt="Photo of sunset" />
+                                        <img src={img1}  className="li" alt="Photo of sunset" />
                                         <h5 class="card-title mt-3 mb-3">Vous étes invitées a representer le club A2S dans l’evenement South digital things , veuillez comfirmer votre presence.</h5>
                                         <span className='gre' > Veuiller se presenter a l’heure</span>
                                     </div>
@@ -131,7 +135,7 @@ const home = () => {
                                 <div class="col-sm-6">
                                     <div class="card card-block">
 
-                                        <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset" />
+                                        <img src={img4} className="li" alt="Photo of sunset" />
                                         <h5 class="card-title  mt-3 mb-3">Vous participez au collecte  le  prochain Mardi le 8 fevrier 2022 .
 Ce Collecte aura lieu a rabat hay al irfane Bloc D.
 </h5>
@@ -144,7 +148,7 @@ Ce Collecte aura lieu a rabat hay al irfane Bloc D.
                                 <div class="col-sm-6">
                                     <div class="card card-block">
 
-                                        <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset" />
+                                        <img src={img2}className="li"  alt="Photo of sunset" />
                                         <h5 class="card-title  mt-3 mb-3">Vous participez au collecte  le  prochain Mardi le 8 fevrier 2022 .
 Ce Collecte aura lieu a rabat hay al irfane Bloc D.
 </h5>
@@ -157,7 +161,7 @@ Ce Collecte aura lieu a rabat hay al irfane Bloc D.
                                 <div class="col-sm-6">
                                     <div class="card card-block">
 
-                                        <img src="https://static.pexels.com/photos/7357/startup-photos.jpg" alt="Photo of sunset" />
+                                        <img src={img3} className="li" alt="Photo of sunset" />
                                         <h5 class="card-title  mt-3 mb-3">Vous participez au collecte  le  prochain Mardi le 8 fevrier 2022 .
 Ce Collecte aura lieu a rabat hay al irfane Bloc D.
 </h5>
@@ -171,6 +175,10 @@ Ce Collecte aura lieu a rabat hay al irfane Bloc D.
                         </div>
                     </div>
                     </div>
+                    <div className="footer">
+                    <img className='last' src={logo} alt="" />
+                    <img className='last' src={logo3} alt="" />
+                </div>
             </body >
         </div >
     );

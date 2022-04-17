@@ -1,6 +1,5 @@
-img {
+img.li {
     height: 150px;
-    width: 100%;
 }
 
 div [class^="col-"] {

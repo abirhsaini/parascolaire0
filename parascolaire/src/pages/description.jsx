@@ -4,6 +4,7 @@ import image1 from "../images/ho.PNG"
 import image2 from "../images/DJF.jpeg"
 import logo from "../images/logo2.png"
 import logo3 from "../images/hh.jpeg"
+import img1 from "../images/lp.jpeg"
 
 
 
@@ -54,12 +55,12 @@ En septembre 2021, Jeff Davis annonce la production d'une suite sous format d'un
                             <div class="card">
                     <div class="row">
                         <div class="col-sm-5">
-                            <img class="d-block " className='card3' src={image2} alt="" />
+                            <img class="d-block " className='card3' src={img1} alt="" />
 
                         </div>
                         <div class="col-sm-7">
                             <div class="card-block">
-                                <h4 class="card-title">mot de la presidante</h4>
+                                <h4 class="card-title">mot du presidant</h4>
 
                                 <p className='black'>Nom complet   <span className='gre' >Achraf Benomar</span> age de: <span className='gre'>21 ans </span> <br />  <span className='gre' >Etudiante en 2éme année Filière Smart Ict</span>   </p>
 

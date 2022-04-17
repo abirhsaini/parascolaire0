@@ -39,7 +39,7 @@ const Login = () => {
                 <option >team of club</option>
             </select>
             <p>forgot password?</p>
-           <a href="/Allclubs"><button  className='input' onClick={register}>LOGIN</button></a>
+           <a href="/home"><button  className='input' onClick={register}>LOGIN</button></a>
         </div>
     );
 };
