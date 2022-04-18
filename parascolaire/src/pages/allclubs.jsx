@@ -42,6 +42,7 @@ const Allclubs = () => {
                      
                     </div>
                     {cards}
+                    
                 </div>
                 <div className="footer">
                     <img className='last' src={logo} alt="" />
